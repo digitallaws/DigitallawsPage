@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #152040;
+  --color-ice: #ddd9df;
+  --color-steel: #3e5a80;
+  --color-brand: #084fdb;
+  --color-graphite: #565e6b;
+  --color-sky: #7d97b0;
+}
+
+[data-theme="dark"] {
+  --color-navy: #0f152a;
+  --color-ice: #0b1220;
+  --color-steel: #2b476e;
+  --color-brand: #3e5a80;
+  --color-graphite: #a3b1c0;
+  --color-sky: #23384f;
+}
+
+.glass {
+  background-color: rgb(255 255 255 / 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgb(255 255 255 / 0.2);
+}
+
+.bg-hero-gradient {
+  background-image: linear-gradient(
+    to top,
+    color-mix(in oklab, var(--color-brand) 100%, transparent) 0%,
+    color-mix(in oklab, var(--color-brand) 20%, #ffffff) 30%,
+    #ffffff 70%,
+    #ffffff 100%
+  );
+}
+
+.nav-glass {
+  background-image: linear-gradient(
+    to bottom,
+    color-mix(in oklab, var(--color-brand) 30%, #ffffff),
+    rgb(255 255 255 / 0.82)
+  );
+}
+
+.nav-solid {
+  background-color: #ffffff;
+}
+
+.nav-blue {
+  background-color: color-mix(in oklab, var(--color-brand) 25%, #ffffff);
+}
+.nav-blue-light {
+  background-color: color-mix(in oklab, var(--color-brand) 25%, #ffffff);
+}
+.nav-white {
+  background-color: rgb(255 255 255 / 0.85);
+}
+
+.carousel-mask {
+  overflow: hidden;
+}
+.carousel-track {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+  animation: scroll-x 40s linear infinite;
+}
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.hero-diagonal {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(
+    to bottom right,
+    transparent 0%,
+    transparent 60%,
+    color-mix(in oklab, var(--color-brand) 15%, transparent) 85%,
+    color-mix(in oklab, var(--color-brand) 28%, transparent) 100%
+  );
+}
+
+.hero-accent {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.5rem;
+  width: clamp(160px, 22vw, 280px);
+  height: clamp(100px, 14vw, 180px);
+  border-radius: 24px;
+  background: radial-gradient(120% 120% at 100% 100%,
+    color-mix(in oklab, var(--color-brand) 42%, transparent) 0%,
+    color-mix(in oklab, var(--color-brand) 24%, transparent) 50%,
+    transparent 70%
+  );
+  opacity: 0.95;
+}
