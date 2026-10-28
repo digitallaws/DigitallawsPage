@@ -1,0 +1,524 @@
+{
+  "eslint.config.js": {
+    "mtime": 1775700831.3487942,
+    "seen": 1793149895.7376804,
+    "ast_hash": "a070eb29a5c78d4e8858d43342ddd3a1",
+    "semantic_hash": "a070eb29a5c78d4e8858d43342ddd3a1"
+  },
+  "package.json": {
+    "mtime": 1793150105.428976,
+    "seen": 1793150423.688787,
+    "ast_hash": "2cdb7f6a7f337dde1e5dc81a644b9122",
+    "semantic_hash": ""
+  },
+  "src/App.tsx": {
+    "mtime": 1793150159.5280273,
+    "seen": 1793150423.6887903,
+    "ast_hash": "fb79c0cc3866f7804919c8a4780b8494",
+    "semantic_hash": ""
+  },
+  "src/components/About.tsx": {
+    "mtime": 1793149293.1481528,
+    "seen": 1793149895.7376878,
+    "ast_hash": "7819e1fbb28ed02ba1a8aa62bfdd1ffd",
+    "semantic_hash": "7819e1fbb28ed02ba1a8aa62bfdd1ffd"
+  },
+  "src/components/AlliesMap.tsx": {
+    "mtime": 1775700831.410634,
+    "seen": 1793149895.7376885,
+    "ast_hash": "0b5263af7eb9beb979ee0e5ff38751f7",
+    "semantic_hash": "0b5263af7eb9beb979ee0e5ff38751f7"
+  },
+  "src/components/BgGrid.tsx": {
+    "mtime": 1775700831.410634,
+    "seen": 1793149895.7376893,
+    "ast_hash": "20edf391053dc47fcb6c27876c14cb28",
+    "semantic_hash": "20edf391053dc47fcb6c27876c14cb28"
+  },
+  "src/components/ClientsBanner.tsx": {
+    "mtime": 1775700831.410634,
+    "seen": 1793149895.7376902,
+    "ast_hash": "8aebd6e9737d8a5067be20205ecdc3ed",
+    "semantic_hash": "8aebd6e9737d8a5067be20205ecdc3ed"
+  },
+  "src/components/ContactCTA.tsx": {
+    "mtime": 1793149394.7090764,
+    "seen": 1793149895.737691,
+    "ast_hash": "2f7d15db6310a07f9587e69adadcb69d",
+    "semantic_hash": "2f7d15db6310a07f9587e69adadcb69d"
+  },
+  "src/components/Footer.tsx": {
+    "mtime": 1793150209.6785994,
+    "seen": 1793150423.6887994,
+    "ast_hash": "7b00d55d33fa4d9dcb96b12adcef5416",
+    "semantic_hash": ""
+  },
+  "src/components/Hero.tsx": {
+    "mtime": 1793149267.6371808,
+    "seen": 1793149895.7376924,
+    "ast_hash": "dfc0aa591483796c34b1e763efeecf37",
+    "semantic_hash": "dfc0aa591483796c34b1e763efeecf37"
+  },
+  "src/components/Navbar.tsx": {
+    "mtime": 1793150188.4678721,
+    "seen": 1793150423.6888046,
+    "ast_hash": "175866252ac61aebad187feb38309a7c",
+    "semantic_hash": ""
+  },
+  "src/components/Partners.tsx": {
+    "mtime": 1793149367.5493553,
+    "seen": 1793149895.7376943,
+    "ast_hash": "9fa6e1e8886a08b6859b76305cbad0c7",
+    "semantic_hash": "9fa6e1e8886a08b6859b76305cbad0c7"
+  },
+  "src/components/Products.tsx": {
+    "mtime": 1793149334.1092682,
+    "seen": 1793149895.7376947,
+    "ast_hash": "c6c7678f7063aaa677ef3e5aba32fe73",
+    "semantic_hash": "c6c7678f7063aaa677ef3e5aba32fe73"
+  },
+  "src/components/Security.tsx": {
+    "mtime": 1793149382.814838,
+    "seen": 1793149895.7376955,
+    "ast_hash": "8065f5a2ba6c523e7a5d05a0a9430f5d",
+    "semantic_hash": "8065f5a2ba6c523e7a5d05a0a9430f5d"
+  },
+  "src/components/Services.tsx": {
+    "mtime": 1775700831.411646,
+    "seen": 1793149895.737696,
+    "ast_hash": "745f550c98c004902030e95b880e1d02",
+    "semantic_hash": "745f550c98c004902030e95b880e1d02"
+  },
+  "src/components/ServicesTicker.tsx": {
+    "mtime": 1793149434.045017,
+    "seen": 1793149895.737697,
+    "ast_hash": "dcb23be759dda07294b695fbff6471f5",
+    "semantic_hash": "dcb23be759dda07294b695fbff6471f5"
+  },
+  "src/context/ThemeContext.tsx": {
+    "mtime": 1775700831.411646,
+    "seen": 1793149895.7376974,
+    "ast_hash": "21888493d3e100acc0076fd221dfeda2",
+    "semantic_hash": "21888493d3e100acc0076fd221dfeda2"
+  },
+  "src/context/ThemeStore.ts": {
+    "mtime": 1775700831.412544,
+    "seen": 1793149895.737698,
+    "ast_hash": "966b2f15ff4619703df23cf5d0cbf27f",
+    "semantic_hash": "966b2f15ff4619703df23cf5d0cbf27f"
+  },
+  "src/context/useTheme.ts": {
+    "mtime": 1775700831.412544,
+    "seen": 1793149895.7376986,
+    "ast_hash": "549321d82f68c8e4dc15e5d77322fae0",
+    "semantic_hash": "549321d82f68c8e4dc15e5d77322fae0"
+  },
+  "src/layouts/SiteLayout.tsx": {
+    "mtime": 1793150151.4427745,
+    "seen": 1793150423.6888156,
+    "ast_hash": "d0e7e7dafabe5d0169acfd6ce4edc459",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1793150163.840554,
+    "seen": 1793150423.6888173,
+    "ast_hash": "ea323f2af9b844fcc33ba0b0dbf19214",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1775700831.4130569,
+    "seen": 1793149895.7377007,
+    "ast_hash": "89eb759c9b2174fc82eef0073f1e930a",
+    "semantic_hash": "89eb759c9b2174fc82eef0073f1e930a"
+  },
+  "tsconfig.json": {
+    "mtime": 1775700831.4130569,
+    "seen": 1793149895.7377017,
+    "ast_hash": "852c3a5df14a4b43ac28e9554ebedf4a",
+    "semantic_hash": "852c3a5df14a4b43ac28e9554ebedf4a"
+  },
+  "tsconfig.node.json": {
+    "mtime": 1775700831.4130569,
+    "seen": 1793149895.7377021,
+    "ast_hash": "c5c9cdf8e005158c0b05c527b5634360",
+    "semantic_hash": "c5c9cdf8e005158c0b05c527b5634360"
+  },
+  "vite.config.ts": {
+    "mtime": 1775700831.4130569,
+    "seen": 1793149895.7377028,
+    "ast_hash": "4ac0374c05151ac40543ec3e795beab0",
+    "semantic_hash": "4ac0374c05151ac40543ec3e795beab0"
+  },
+  "src/components/LegalDoc.tsx": {
+    "mtime": 1793150229.6565816,
+    "seen": 1793150423.688803,
+    "ast_hash": "0db8861e6b7cbd987e376a5053db95e4",
+    "semantic_hash": ""
+  },
+  "src/pages/CookiesPage.tsx": {
+    "mtime": 1793150280.0278833,
+    "seen": 1793150423.6888182,
+    "ast_hash": "ff1108765f0b862b1f01e292d62ac2e1",
+    "semantic_hash": ""
+  },
+  "src/pages/HomePage.tsx": {
+    "mtime": 1793150142.6038003,
+    "seen": 1793150423.6888192,
+    "ast_hash": "617f006f565d0f63fa246a44cb73973c",
+    "semantic_hash": ""
+  },
+  "src/pages/NotFoundPage.tsx": {
+    "mtime": 1793150401.7808497,
+    "seen": 1793150423.6888204,
+    "ast_hash": "df500bde59cbf489a7a187656d0828e1",
+    "semantic_hash": ""
+  },
+  "src/pages/PqrsPage.tsx": {
+    "mtime": 1793150393.869975,
+    "seen": 1793150423.6888216,
+    "ast_hash": "157b5c139f9166089c9e012d77f09802",
+    "semantic_hash": ""
+  },
+  "src/pages/PrivacyPage.tsx": {
+    "mtime": 1793150255.5045147,
+    "seen": 1793150423.6888227,
+    "ast_hash": "58df6306b8c7a68c8df5bd5f2dd3ce30",
+    "semantic_hash": ""
+  },
+  "src/pages/ProductsPage.tsx": {
+    "mtime": 1793150344.7353196,
+    "seen": 1793150423.6888237,
+    "ast_hash": "72cff5c27f941e60554a6d9e88764d06",
+    "semantic_hash": ""
+  },
+  "src/pages/SecurityPage.tsx": {
+    "mtime": 1793150308.9975681,
+    "seen": 1793150423.6888247,
+    "ast_hash": "7afc03f7aa2930fc8c606bbdbec72be4",
+    "semantic_hash": ""
+  },
+  "src/pages/TermsPage.tsx": {
+    "mtime": 1793150268.1955328,
+    "seen": 1793150423.6888256,
+    "ast_hash": "0d09953ed90d37d0eb7e67c4cb5535a3",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/SKILL.md": {
+    "mtime": 1793149926.7880878,
+    "seen": 1793150423.6888316,
+    "ast_hash": "1656a8a8e4a05bbe69f32cd15de81e87",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/add-watch.md": {
+    "mtime": 1787692624.261564,
+    "seen": 1793150423.6888325,
+    "ast_hash": "d59d027fe449f06aa03905a01184e779",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/exports.md": {
+    "mtime": 1787692624.261564,
+    "seen": 1793150423.6888332,
+    "ast_hash": "9da2a2152e60a22f07f05fed5158f287",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/extraction-spec.md": {
+    "mtime": 1787692624.2630696,
+    "seen": 1793150423.6888342,
+    "ast_hash": "bf895ec4d4e40f5f66f7d31c2a9bd4a7",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/github-and-merge.md": {
+    "mtime": 1787692624.2630696,
+    "seen": 1793150423.6888351,
+    "ast_hash": "cde13df085e4c492aeb7ba298a996d0d",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/hooks.md": {
+    "mtime": 1787692624.2630696,
+    "seen": 1793150423.6888359,
+    "ast_hash": "3f545db6ce646650bb9de588f5512a27",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/query.md": {
+    "mtime": 1787692624.2645895,
+    "seen": 1793150423.6888366,
+    "ast_hash": "3c46f8ad006874260614ed8657d02307",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/transcribe.md": {
+    "mtime": 1787692624.2645895,
+    "seen": 1793150423.6888373,
+    "ast_hash": "67b6a5fa6c0974e18f60db9f8932fbd8",
+    "semantic_hash": ""
+  },
+  ".kiro/skills/graphify/references/update.md": {
+    "mtime": 1787692624.2655952,
+    "seen": 1793150423.6888385,
+    "ast_hash": "9378bd03d56baaf78bd738ab3848f142",
+    "semantic_hash": ""
+  },
+  ".kiro/steering/graphify.md": {
+    "mtime": 1793149926.7981327,
+    "seen": 1793150423.6888397,
+    "ast_hash": "81be1a4201e0893879433cddab9ffd20",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1775700831.3477712,
+    "seen": 1793150423.688841,
+    "ast_hash": "bdeef5ff1a123baf1e325b55bc14480e",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1793149156.6463976,
+    "seen": 1793150423.688842,
+    "ast_hash": "194f0a6933c4598cafe4b17d773ef4bc",
+    "semantic_hash": ""
+  },
+  "reformacion/Guia_de_Estilos_DigitalALWS.md": {
+    "mtime": 1793148835.671232,
+    "seen": 1793150423.688843,
+    "ast_hash": "d0be5ff14c48d45811a3f73e66a00317",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/executive_light_tech/DESIGN.md": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888437,
+    "ast_hash": "cb720e9f606c97c7311b688704e7bea8",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/inicio_digitalalws_corporativo/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.688845,
+    "ast_hash": "5aecfeea06a62df0674ad7c300044d56",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/nuestros_productos_digitalalws/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888459,
+    "ast_hash": "46966b1b38709b0aa82e78ac31ac05a5",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/pqrs_digitalalws/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888466,
+    "ast_hash": "891351e474d1aadd16de0d4ae97cc7a0",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/seguridad_digitalalws_corporativo/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888473,
+    "ast_hash": "374272694b34107093a20057d564ef5e",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/seguridad_y_privacidad_digitalalws/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888485,
+    "ast_hash": "3b3bf715adbd567bf703eb8ed5dc9031",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/t_rminos_y_condiciones_digitalalws/code.html": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888492,
+    "ast_hash": "2c172f349c72bd0b309cac95e750855c",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/executive_dark_tech/DESIGN.md": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.68885,
+    "ast_hash": "d1a77060cfa476a7c5de208dd7c5cf0c",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/inicio_digitalalws_corporativo/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888506,
+    "ast_hash": "0f195b25c096b8b638c0258ca010d742",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/nuestros_productos_digitalalws/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888516,
+    "ast_hash": "04cac080bf453ef19567d30034cb6a43",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/pol_tica_de_cookies_digitalalws/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888525,
+    "ast_hash": "7fc8676938f1e4759e353cba50a810d9",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/pqrs_digitalalws/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888533,
+    "ast_hash": "ae8500c4ca8690e2487fa4f1478aaba0",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/seguridad_digitalalws_corporativo/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.688854,
+    "ast_hash": "e43c1cafdc52f0789e432a247aee0f0c",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/seguridad_y_privacidad_digitalalws/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888547,
+    "ast_hash": "8a042e9ed42567af9989c11e4ca6209a",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/t_rminos_y_condiciones_digitalalws/code.html": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.688856,
+    "ast_hash": "7833d0c339be128263cfe61503b9c1af",
+    "semantic_hash": ""
+  },
+  "public/favicon.png": {
+    "mtime": 1775700831.3540864,
+    "seen": 1793150423.6888566,
+    "ast_hash": "8027a244ff10b23c76eb9dcec036b9fe",
+    "semantic_hash": ""
+  },
+  "public/vite.svg": {
+    "mtime": 1775700831.3551056,
+    "seen": 1793150423.6888573,
+    "ast_hash": "8e3a10e157f75ada21ab742c022d5430",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/inicio_digitalalws_corporativo/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.688858,
+    "ast_hash": "d0013da0fa3b035b25379827dd017bba",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/nuestros_productos_digitalalws/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.688859,
+    "ast_hash": "e6340ed8bcd0b3f938606c27f4ecb7ef",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/pqrs_digitalalws/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.68886,
+    "ast_hash": "385a0827852c2ea7a663c857b42a4c91",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/seguridad_digitalalws_corporativo/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888607,
+    "ast_hash": "57f5b59ee10836b79480c325f2b5a6b3",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/seguridad_y_privacidad_digitalalws/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888616,
+    "ast_hash": "65752bfbb7af235d8e534197dbca0a60",
+    "semantic_hash": ""
+  },
+  "reformacion/_claro/stitch_digitalalws_corporate_platform_portal/t_rminos_y_condiciones_digitalalws/screen.png": {
+    "mtime": 1793166938.0,
+    "seen": 1793150423.6888626,
+    "ast_hash": "c4b913368e4a5dd723a621cab9658bfb",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/inicio_digitalalws_corporativo/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888635,
+    "ast_hash": "dce2266dc0a8db50ebf288ea6e5cd714",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/nuestros_productos_digitalalws/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888645,
+    "ast_hash": "f2ef4122bcbd10538f55354df57f7dc0",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/pol_tica_de_cookies_digitalalws/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888652,
+    "ast_hash": "104247b62ca9ab2c246d9bab7deb5dff",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/pqrs_digitalalws/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888661,
+    "ast_hash": "c2c660ffe48a6f6b655510a59d1424b1",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/seguridad_digitalalws_corporativo/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888669,
+    "ast_hash": "70c41dee1bb7af500d5e01257468b06e",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/seguridad_y_privacidad_digitalalws/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888676,
+    "ast_hash": "5ef510e717d299b5e35ffc3480347ba3",
+    "semantic_hash": ""
+  },
+  "reformacion/_oscuro/stitch_digitalalws_corporate_platform_portal/t_rminos_y_condiciones_digitalalws/screen.png": {
+    "mtime": 1793166900.0,
+    "seen": 1793150423.6888685,
+    "ast_hash": "c30b23ff1b0ac32d85c4178a6e084315",
+    "semantic_hash": ""
+  },
+  "src/assets/Banner.png": {
+    "mtime": 1775700831.3782654,
+    "seen": 1793150423.6888697,
+    "ast_hash": "6903f30c694bdb1385dae9766b22e3d8",
+    "semantic_hash": ""
+  },
+  "src/assets/Grafico.png": {
+    "mtime": 1775700831.3969445,
+    "seen": 1793150423.6888704,
+    "ast_hash": "c3217200cef82eafeafaf5b6e5e66631",
+    "semantic_hash": ""
+  },
+  "src/assets/Logo Claro.png": {
+    "mtime": 1775700831.3969445,
+    "seen": 1793150423.6888711,
+    "ast_hash": "0d45bf69867af5c920c0893116c4080f",
+    "semantic_hash": ""
+  },
+  "src/assets/Logo Oscuro.png": {
+    "mtime": 1775700831.3985164,
+    "seen": 1793150423.6888719,
+    "ast_hash": "94df2efe0eeaaba2981b1c52914dcaa0",
+    "semantic_hash": ""
+  },
+  "src/assets/Personas.png": {
+    "mtime": 1775700831.406819,
+    "seen": 1793150423.6888728,
+    "ast_hash": "ea66e2f63a2707870314d6195e69a857",
+    "semantic_hash": ""
+  },
+  "src/assets/co.svg": {
+    "mtime": 1775700831.4085045,
+    "seen": 1793150423.6888738,
+    "ast_hash": "99b0298c45bdfd3310d8950d4a981203",
+    "semantic_hash": ""
+  },
+  "src/assets/favicon.png": {
+    "mtime": 1775700831.4085045,
+    "seen": 1793150423.6888745,
+    "ast_hash": "8027a244ff10b23c76eb9dcec036b9fe",
+    "semantic_hash": ""
+  },
+  "src/assets/logo digitallaws-colorpalette.png": {
+    "mtime": 1775700831.4090922,
+    "seen": 1793150423.6888752,
+    "ast_hash": "bcaf9ebbfd6bf44f48577cdd87e36859",
+    "semantic_hash": ""
+  },
+  "src/assets/logotipo.jpeg": {
+    "mtime": 1775700831.410634,
+    "seen": 1793150423.6888764,
+    "ast_hash": "f388a95680bacb83ff24a311e5016b85",
+    "semantic_hash": ""
+  },
+  "src/assets/react.svg": {
+    "mtime": 1775700831.410634,
+    "seen": 1793150423.6888778,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  }
+}

@@ -1,61 +1,251 @@
 @import "tailwindcss";
 
+/* ============================================================
+   DigitalALWS · Sistema de diseño
+   Tokens semánticos parametrizados para modo claro y oscuro.
+   Fuente: Guía de Estilos DigitalALWS + DESIGN.md (Stitch).
+   ============================================================ */
+
 @theme {
-  --color-navy: #152040;
-  --color-ice: #ddd9df;
-  --color-steel: #3e5a80;
-  --color-brand: #084fdb;
-  --color-graphite: #565e6b;
-  --color-sky: #7d97b0;
+  /* --- Tipografía --- */
+  --font-sans: "Plus Jakarta Sans", Inter, system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", "Plus Jakarta Sans", system-ui, sans-serif;
+
+  /* --- Escala tipográfica (display / headline / body / label) --- */
+  --text-display: 3.5rem;
+  --text-display--line-height: 1.1;
+  --text-display--letter-spacing: -0.03em;
+  --text-display--font-weight: 800;
+
+  --text-display-sm: 2.25rem;
+  --text-display-sm--line-height: 1.15;
+  --text-display-sm--letter-spacing: -0.025em;
+  --text-display-sm--font-weight: 800;
+
+  --text-h2: 2rem;
+  --text-h2--line-height: 1.25;
+  --text-h2--letter-spacing: -0.02em;
+  --text-h2--font-weight: 700;
+
+  --text-h3: 1.25rem;
+  --text-h3--line-height: 1.4;
+  --text-h3--letter-spacing: -0.01em;
+  --text-h3--font-weight: 600;
+
+  --text-body-lg: 1.125rem;
+  --text-body-lg--line-height: 1.6;
+
+  --text-label: 0.6875rem;
+  --text-label--line-height: 1;
+  --text-label--letter-spacing: 0.08em;
+  --text-label--font-weight: 600;
+
+  /* --- Radios --- */
+  --radius-card: 1rem;
+  --radius-xl: 1.5rem;
+
+  /* --- Colores de marca y acentos (ambos modos) --- */
+  --color-brand: #2563eb; /* Blue 600 · primario */
+  --color-brand-hover: #1d4ed8; /* Blue 700 · hover */
+  --color-brand-500: #3b82f6;
+  --color-brand-400: #60a5fa;
+
+  /* --- Estados (ambos modos) --- */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-info: #0ea5e9;
+
+  /* --- Tokens semánticos (resueltos por modo más abajo) --- */
+  --color-canvas: var(--dl-canvas);
+  --color-surface: var(--dl-surface);
+  --color-surface-low: var(--dl-surface-low);
+  --color-surface-high: var(--dl-surface-high);
+  --color-surface-lowest: var(--dl-surface-lowest);
+  --color-border: var(--dl-border);
+  --color-text: var(--dl-text);
+  --color-text-muted: var(--dl-text-muted);
+  --color-text-subtle: var(--dl-text-subtle);
+  --color-brand-tint: var(--dl-brand-tint);
+  --color-on-brand: #ffffff;
 }
 
+/* ============================================================
+   MODO CLARO · Executive Light Tech ☀️
+   ============================================================ */
+:root,
+[data-theme="light"] {
+  --dl-canvas: #f8fafc;
+  --dl-surface: #ffffff;
+  --dl-surface-low: #f1f5f9;
+  --dl-surface-high: #e2e8f0;
+  --dl-surface-lowest: #ffffff;
+  --dl-border: #e2e8f0;
+  --dl-text: #0f172a;
+  --dl-text-muted: #475569;
+  --dl-text-subtle: #94a3b8;
+  --dl-brand-tint: rgba(37, 99, 235, 0.08);
+  color-scheme: light;
+}
+
+/* ============================================================
+   MODO OSCURO · Executive Dark Tech 🌙
+   ============================================================ */
 [data-theme="dark"] {
-  --color-navy: #0f152a;
-  --color-ice: #0b1220;
-  --color-steel: #2b476e;
-  --color-brand: #3e5a80;
-  --color-graphite: #a3b1c0;
-  --color-sky: #23384f;
+  --dl-canvas: #071326;
+  --dl-surface: #101c2f;
+  --dl-surface-low: #0b192c;
+  --dl-surface-high: #16253c;
+  --dl-surface-lowest: #030e21;
+  --dl-border: rgba(255, 255, 255, 0.08);
+  --dl-text: #f8fafc;
+  --dl-text-muted: #94a3b8;
+  --dl-text-subtle: #64748b;
+  --dl-brand-tint: rgba(37, 99, 235, 0.15);
+  color-scheme: dark;
 }
 
-.glass {
-  background-color: rgb(255 255 255 / 0.6);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgb(255 255 255 / 0.2);
+/* ============================================================
+   Base
+   ============================================================ */
+html {
+  scroll-behavior: smooth;
 }
 
-.bg-hero-gradient {
-  background-image: linear-gradient(
-    to top,
-    color-mix(in oklab, var(--color-brand) 100%, transparent) 0%,
-    color-mix(in oklab, var(--color-brand) 20%, #ffffff) 30%,
-    #ffffff 70%,
-    #ffffff 100%
+body {
+  margin: 0;
+  background-color: var(--color-canvas);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: var(--font-sans);
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   Utilidades compuestas (dependen del tema)
+   ============================================================ */
+
+/* Resplandor ambiental del hero */
+.hero-ambient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+[data-theme="dark"] .hero-ambient {
+  background: radial-gradient(
+    ellipse 60% 50% at 50% 0%,
+    rgba(37, 99, 235, 0.18) 0%,
+    transparent 70%
+  );
+}
+[data-theme="light"] .hero-ambient {
+  background: radial-gradient(
+    ellipse 55% 45% at 50% 10%,
+    rgba(96, 165, 250, 0.22) 0%,
+    transparent 70%
   );
 }
 
-.nav-glass {
+/* Degradado de fondo del hero */
+.hero-bg {
   background-image: linear-gradient(
     to bottom,
-    color-mix(in oklab, var(--color-brand) 30%, #ffffff),
-    rgb(255 255 255 / 0.82)
+    var(--color-canvas) 0%,
+    var(--color-surface) 100%
   );
 }
-
-.nav-solid {
-  background-color: #ffffff;
+[data-theme="light"] .hero-bg {
+  background-image: linear-gradient(to bottom, #f8fafc 0%, #ffffff 60%, #ffffff 100%);
 }
 
-.nav-blue {
-  background-color: color-mix(in oklab, var(--color-brand) 25%, #ffffff);
+/* Botón primario con degradado (modo oscuro) y sólido (claro) */
+.btn-primary {
+  background-color: var(--color-brand);
+  color: #ffffff;
+  transition: all 0.2s ease;
 }
-.nav-blue-light {
-  background-color: color-mix(in oklab, var(--color-brand) 25%, #ffffff);
+.btn-primary:hover {
+  background-color: var(--color-brand-hover);
 }
-.nav-white {
-  background-color: rgb(255 255 255 / 0.85);
+[data-theme="dark"] .btn-primary {
+  background-image: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.12);
+}
+[data-theme="dark"] .btn-primary:hover {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.4);
 }
 
+/* ============================================================
+   Scroll tipo diapositiva (scroll-snap)
+   - 'proximity' permite scroll libre en secciones altas y
+     engancha solo al acercarse al borde de cada sección.
+   - scroll-padding-top compensa el navbar fijo (5rem / h-20).
+   ============================================================ */
+.snap-container {
+  height: calc(100svh - 5rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 0;
+  scroll-behavior: smooth;
+  overscroll-behavior-y: contain;
+}
+
+/* Cada sección directa (o envuelta en un único div de página)
+   se comporta como una diapositiva. */
+.snap-container > section,
+.snap-container > div > section,
+.snap-container > div > footer,
+.snap-container > footer {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Las secciones que caben en pantalla ocupan el alto completo
+   y centran su contenido verticalmente; las más altas crecen con
+   su contenido y permiten scroll interno antes del snap. */
+.snap-container > section,
+.snap-container > div > section {
+  min-height: calc(100svh - 5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .snap-container {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+  }
+}
+
+/* Carrusel de servicios */
 .carousel-mask {
   overflow: hidden;
 }
@@ -74,30 +264,11 @@
   }
 }
 
-.hero-diagonal {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image: linear-gradient(
-    to bottom right,
-    transparent 0%,
-    transparent 60%,
-    color-mix(in oklab, var(--color-brand) 15%, transparent) 85%,
-    color-mix(in oklab, var(--color-brand) 28%, transparent) 100%
-  );
-}
-
-.hero-accent {
-  position: absolute;
-  right: 0.75rem;
-  bottom: 0.5rem;
-  width: clamp(160px, 22vw, 280px);
-  height: clamp(100px, 14vw, 180px);
-  border-radius: 24px;
-  background: radial-gradient(120% 120% at 100% 100%,
-    color-mix(in oklab, var(--color-brand) 42%, transparent) 0%,
-    color-mix(in oklab, var(--color-brand) 24%, transparent) 50%,
-    transparent 70%
-  );
-  opacity: 0.95;
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .carousel-track {
+    animation: none;
+  }
 }

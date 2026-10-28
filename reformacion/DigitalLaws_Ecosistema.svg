@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1060" height="670" viewBox="0 0 1060 670" role="img" aria-labelledby="title desc">
+  <title id="title">Ecosistema de productos DigitalLaws</title>
+  <desc id="desc">DigitalLaws como empresa creadora de DIMAIL, DIMAIL Marketing, LegalEnvios y futuras plataformas, con AlfaMensajes como socio tecnológico. Las líneas representan conexión y colaboración.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".58" stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#F1F7FF"/>
+    </linearGradient>
+    <radialGradient id="halo" cx=".42" cy=".46" r=".55">
+      <stop stop-color="#D8E8FF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#D8E8FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="connector" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#C5D9F7"/>
+      <stop offset=".64" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A4D2F9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="175%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#2B528B" flood-opacity=".10"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <pattern id="dots" width="23" height="23" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#A6C3E9" opacity=".32"/>
+    </pattern>
+    <style>
+      text { font-family:'Plus Jakarta Sans',Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; }
+      .eyebrow { fill:#2563EB; font-size:12px; font-weight:800; letter-spacing:2.3px; }
+      .heading { fill:#0F172A; font-size:25px; font-weight:800; letter-spacing:-.85px; }
+      .subheading { fill:#64748B; font-size:14px; font-weight:500; }
+      .brand { fill:#0F172A; font-size:31px; font-weight:800; letter-spacing:-1.3px; }
+      .brand-sub { fill:#64748B; font-size:14px; }
+      .product-name { fill:#0F172A; font-size:19px; font-weight:800; letter-spacing:-.4px; }
+      .product-sub { fill:#64748B; font-size:13px; font-weight:500; }
+      .small-label { fill:#2563EB; font-size:10px; font-weight:800; letter-spacing:1.1px; }
+      .wire { fill:none; stroke:url(#connector); stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; opacity:.82; }
+      .wire-dash { fill:none; stroke:#9DB6D6; stroke-width:2.2; stroke-dasharray:6 8; opacity:.75; }
+      .flow { fill:none; stroke:#2563EB; stroke-width:2.2; stroke-dasharray:2 22; stroke-linecap:round; animation:flow 3s linear infinite; }
+      @keyframes flow { to {stroke-dashoffset:-96;} }
+      .node { cursor:default; outline:none; }
+      .node .card { fill:white; stroke:#DBE6F5; stroke-width:1.5; transition:stroke .25s ease,fill .25s ease; }
+      .node .symbol { transition:transform .25s ease; transform-box:fill-box; transform-origin:center; }
+      .node:hover .card,.node:focus .card { stroke:#2563EB; fill:#F6FAFF; }
+      .node:hover .symbol,.node:focus .symbol { transform:scale(1.12); }
+      .node .accent { opacity:.55; transition:opacity .25s ease; }
+      .node:hover .accent,.node:focus .accent { opacity:1; }
+      @media (prefers-reduced-motion: reduce) {
+        .flow { animation:none; }
+        .node .card,.node .symbol,.node .accent { transition:none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1060" height="670" rx="28" fill="url(#base)"/>
+  <rect x="1" y="1" width="1058" height="668" rx="27" fill="none" stroke="#E1EAF6" stroke-width="2"/>
+  <ellipse cx="480" cy="335" rx="470" ry="320" fill="url(#halo)"/>
+  <rect x="24" y="24" width="1012" height="622" rx="22" fill="url(#dots)" opacity=".54"/>
+
+  <g transform="translate(58 59)">
+    <rect width="163" height="29" rx="14.5" fill="#E8F0FF" stroke="#BFD3FD"/>
+    <circle cx="14" cy="14.5" r="4.5" fill="#2563EB"/>
+    <text x="26" y="19.5" class="eyebrow" style="font-size:10px;letter-spacing:1.3px">ECOSISTEMA DIGITAL</text>
+    <text x="0" y="72" class="heading">Una empresa. Múltiples soluciones.</text>
+    <text x="0" y="97" class="subheading">Productos propios y alianzas que conectan oportunidades.</text>
+  </g>
+
+  <!-- Rutas de comunicación entre la empresa y sus productos. -->
+  <g>
+    <path id="p1" class="wire" d="M385 335 H458 C500 335 495 190 558 190 H615"/>
+    <path id="p2" class="wire" d="M385 335 H465 C510 335 515 310 558 310 H615"/>
+    <path id="p3" class="wire" d="M385 335 H465 C510 335 515 430 558 430 H615"/>
+    <path id="p4" class="wire" d="M385 335 H458 C500 335 495 550 558 550 H615"/>
+    <path class="flow" d="M385 335 H458 C500 335 495 190 558 190 H615"/>
+    <path class="flow" style="animation-delay:-.7s" d="M385 335 H465 C510 335 515 310 558 310 H615"/>
+    <path class="flow" style="animation-delay:-1.5s" d="M385 335 H465 C510 335 515 430 558 430 H615"/>
+    <path class="flow" style="animation-delay:-2.2s" d="M385 335 H458 C500 335 495 550 558 550 H615"/>
+    <path class="wire-dash" d="M226 413 V473"/>
+    <circle cx="385" cy="335" r="7" fill="#2563EB" stroke="#D7E7FF" stroke-width="5"/>
+    <circle cx="615" cy="190" r="5" fill="#2563EB" stroke="#E1EEFF" stroke-width="4"/>
+    <circle cx="615" cy="310" r="5" fill="#2563EB" stroke="#E1EEFF" stroke-width="4"/>
+    <circle cx="615" cy="430" r="5" fill="#2563EB" stroke="#E1EEFF" stroke-width="4"/>
+    <circle cx="615" cy="550" r="5" fill="#2563EB" stroke="#E1EEFF" stroke-width="4"/>
+  </g>
+
+  <!-- Empresa creadora -->
+  <g filter="url(#shadow)">
+    <rect x="63" y="259" width="322" height="154" rx="22" fill="#FFFFFF" stroke="#C9DBF7" stroke-width="1.5"/>
+    <rect x="63" y="259" width="322" height="6" rx="3" fill="url(#blue)"/>
+    <rect x="85" y="286" width="58" height="58" rx="15" fill="url(#blue)"/>
+    <path d="M107 300 h10 c11 0 17 7 17 15 s-6 15-17 15 h-10z" stroke="#FFFFFF" stroke-width="4" fill="none" stroke-linejoin="round"/>
+    <text x="159" y="317" class="brand">Digital<tspan fill="#2563EB">Laws</tspan></text>
+    <text x="87" y="375" class="brand-sub">Empresa creadora de soluciones digitales</text>
+    <rect x="87" y="383" width="112" height="22" rx="11" fill="#E8F0FF"/>
+    <text x="102" y="398" class="small-label" style="font-size:10px">ORIGEN · MARCA</text>
+  </g>
+
+  <!-- Alianza (relación diferente de propiedad). -->
+  <g class="node" tabindex="0" aria-label="AlfaMensajes, socio tecnológico de DigitalLaws">
+    <title>AlfaMensajes: socio tecnológico de DigitalLaws, no producto propio.</title>
+    <rect class="card" x="64" y="473" width="322" height="95" rx="17" filter="url(#shadow)"/>
+    <rect x="84" y="492" width="48" height="48" rx="12" fill="#ECFDF5"/>
+    <g class="symbol" stroke="#059669" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M95 512 l8 -7 9 7 9 -7"/>
+      <path d="M95 515 l10 10 7 -7 7 7 5 -5"/>
+    </g>
+    <text x="146" y="510" class="small-label" style="fill:#059669">ALIANZA ESTRATÉGICA</text>
+    <text x="146" y="535" style="font-size:18px;font-weight:800;fill:#0F172A">AlfaMensajes</text>
+    <text x="146" y="551" class="product-sub">Socio tecnológico</text>
+  </g>
+
+  <!-- Productos propios -->
+  <g class="node" tabindex="0" aria-label="DIMAIL, plataforma de notificaciones y comunicaciones">
+    <title>DIMAIL: notificaciones y comunicaciones empresariales.</title>
+    <rect class="card" x="615" y="144" width="376" height="92" rx="18" filter="url(#shadow)"/>
+    <rect x="638" y="164" width="53" height="53" rx="14" fill="#E9F1FF"/>
+    <g class="symbol" stroke="#2563EB" stroke-width="2.3" fill="none" stroke-linejoin="round">
+      <rect x="648" y="177" width="33" height="25" rx="5"/>
+      <path d="M648 182 l16.5 12 16.5 -12"/>
+      <path d="M657 207 h16" stroke-linecap="round"/>
+    </g>
+    <text x="710" y="176" class="small-label">PRODUCTO PROPIO</text>
+    <text x="710" y="201" class="product-name">DIMAIL</text>
+    <text x="710" y="220" class="product-sub">Notificaciones y comunicaciones</text>
+    <circle class="accent" cx="966" cy="168" r="5" fill="#2563EB"/>
+  </g>
+  <g class="node" tabindex="0" aria-label="DIMAIL Marketing, plataforma de campañas y contactos en desarrollo">
+    <title>DIMAIL Marketing: campañas y gestión de contactos; evolución del portafolio.</title>
+    <rect class="card" x="615" y="264" width="376" height="92" rx="18" filter="url(#shadow)"/>
+    <rect x="638" y="284" width="53" height="53" rx="14" fill="#EEF2FF"/>
+    <g class="symbol" stroke="#6366F1" stroke-width="2.4" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M650 305 h9 l15 -9 v28 l-15 -9 h-9z"/>
+      <path d="M658 318 l4 9"/>
+      <path d="M678 302 l5 -3 M679 315 l5 3"/>
+    </g>
+    <text x="710" y="296" class="small-label" style="fill:#6366F1">EN DESARROLLO</text>
+    <text x="710" y="321" class="product-name">DIMAIL Marketing</text>
+    <text x="710" y="340" class="product-sub">Campañas y gestión de contactos</text>
+    <circle class="accent" cx="966" cy="288" r="5" fill="#6366F1"/>
+  </g>
+  <g class="node" tabindex="0" aria-label="LegalEnvios, solución de gestiones y comunicaciones legales">
+    <title>LegalEnvios: solución digital vinculada a gestiones legales.</title>
+    <rect class="card" x="615" y="384" width="376" height="92" rx="18" filter="url(#shadow)"/>
+    <rect x="638" y="404" width="53" height="53" rx="14" fill="#E9F7FF"/>
+    <g class="symbol" stroke="#0284C7" stroke-width="2.3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M664 414 v29 M651 419 h26 M654 422 l-6 11 h12z M674 422 l-6 11 h12z M654 445 h20"/>
+    </g>
+    <text x="710" y="416" class="small-label" style="fill:#0284C7">PORTAFOLIO</text>
+    <text x="710" y="441" class="product-name">LegalEnvios</text>
+    <text x="710" y="460" class="product-sub">Soluciones para el ámbito legal</text>
+    <circle class="accent" cx="966" cy="408" r="5" fill="#0284C7"/>
+  </g>
+  <g class="node" tabindex="0" aria-label="Próximamente, nuevos productos de DigitalLaws">
+    <title>Próximamente: más productos del ecosistema DigitalLaws.</title>
+    <rect class="card" x="615" y="504" width="376" height="92" rx="18" filter="url(#shadow)"/>
+    <rect x="638" y="524" width="53" height="53" rx="14" fill="#F1F5F9"/>
+    <g class="symbol" stroke="#64748B" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M664.5 536 v28 M650.5 550 h28"/>
+    </g>
+    <text x="710" y="536" class="small-label" style="fill:#64748B">PRÓXIMAMENTE</text>
+    <text x="710" y="561" class="product-name">Nuevos productos</text>
+    <text x="710" y="580" class="product-sub">El ecosistema sigue creciendo</text>
+    <circle class="accent" cx="966" cy="528" r="5" fill="#94A3B8"/>
+  </g>
+
+  <g transform="translate(61 627)">
+    <circle cx="5" cy="0" r="4" fill="#2563EB"/>
+    <text x="18" y="5" style="fill:#64748B;font-size:12px;font-weight:600">Productos propios</text>
+    <path d="M177 0 h30" stroke="#9DB6D6" stroke-width="2" stroke-dasharray="5 5"/>
+    <text x="218" y="5" style="fill:#64748B;font-size:12px;font-weight:600">Alianza tecnológica</text>
+  </g>
+</svg>

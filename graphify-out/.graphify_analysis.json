@@ -1,0 +1,299 @@
+{
+  "communities": {
+    "0": [
+      "autoprefixer",
+      "eslint",
+      "eslint_js",
+      "eslint_plugin_react_hooks",
+      "eslint_plugin_react_refresh",
+      "globals",
+      "package_devdependencies",
+      "package_devdependencies_autoprefixer",
+      "package_devdependencies_eslint",
+      "package_devdependencies_eslint_js",
+      "package_devdependencies_eslint_plugin_react_hooks",
+      "package_devdependencies_eslint_plugin_react_refresh",
+      "package_devdependencies_globals",
+      "package_devdependencies_postcss",
+      "package_devdependencies_prettier",
+      "package_devdependencies_tailwindcss",
+      "package_devdependencies_types_node",
+      "package_devdependencies_types_react",
+      "package_devdependencies_types_react_dom",
+      "package_devdependencies_typescript",
+      "package_devdependencies_typescript_eslint",
+      "package_devdependencies_vite",
+      "package_devdependencies_vitejs_plugin_react_swc",
+      "postcss",
+      "prettier",
+      "tailwindcss",
+      "types_node",
+      "types_react",
+      "types_react_dom",
+      "typescript",
+      "typescript_eslint",
+      "vite",
+      "vitejs_plugin_react_swc"
+    ],
+    "1": [
+      "ref_dom",
+      "ref_dom_iterable",
+      "ref_es2022",
+      "ref_src",
+      "ref_vite_client",
+      "tsconfig_app",
+      "tsconfig_app_compileroptions",
+      "tsconfig_app_compileroptions_allowimportingtsextensions",
+      "tsconfig_app_compileroptions_erasablesyntaxonly",
+      "tsconfig_app_compileroptions_jsx",
+      "tsconfig_app_compileroptions_lib",
+      "tsconfig_app_compileroptions_module",
+      "tsconfig_app_compileroptions_moduledetection",
+      "tsconfig_app_compileroptions_moduleresolution",
+      "tsconfig_app_compileroptions_noemit",
+      "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_app_compileroptions_nouncheckedsideeffectimports",
+      "tsconfig_app_compileroptions_nounusedlocals",
+      "tsconfig_app_compileroptions_nounusedparameters",
+      "tsconfig_app_compileroptions_skiplibcheck",
+      "tsconfig_app_compileroptions_strict",
+      "tsconfig_app_compileroptions_target",
+      "tsconfig_app_compileroptions_tsbuildinfofile",
+      "tsconfig_app_compileroptions_types",
+      "tsconfig_app_compileroptions_usedefineforclassfields",
+      "tsconfig_app_compileroptions_verbatimmodulesyntax",
+      "tsconfig_app_include"
+    ],
+    "2": [
+      "src_app",
+      "src_app_app",
+      "src_components_about",
+      "src_components_about_about",
+      "src_components_about_pillars",
+      "src_components_contactcta",
+      "src_components_contactcta_contactcta",
+      "src_components_hero",
+      "src_components_hero_hero",
+      "src_components_hero_stat",
+      "src_components_partners",
+      "src_components_partners_partners",
+      "src_components_partners_points",
+      "src_components_products",
+      "src_components_products_product",
+      "src_components_products_productcard",
+      "src_components_products_products",
+      "src_components_products_status",
+      "src_components_products_statusstyles",
+      "src_components_security",
+      "src_components_security_cards",
+      "src_components_security_security",
+      "src_components_servicesticker",
+      "src_components_servicesticker_items",
+      "src_components_servicesticker_servicesticker",
+      "src_main"
+    ],
+    "3": [
+      "ref_es2023",
+      "ref_node",
+      "ref_vite_config_ts",
+      "tsconfig_node",
+      "tsconfig_node_compileroptions",
+      "tsconfig_node_compileroptions_allowimportingtsextensions",
+      "tsconfig_node_compileroptions_erasablesyntaxonly",
+      "tsconfig_node_compileroptions_lib",
+      "tsconfig_node_compileroptions_module",
+      "tsconfig_node_compileroptions_moduledetection",
+      "tsconfig_node_compileroptions_moduleresolution",
+      "tsconfig_node_compileroptions_noemit",
+      "tsconfig_node_compileroptions_nofallthroughcasesinswitch",
+      "tsconfig_node_compileroptions_nouncheckedsideeffectimports",
+      "tsconfig_node_compileroptions_nounusedlocals",
+      "tsconfig_node_compileroptions_nounusedparameters",
+      "tsconfig_node_compileroptions_skiplibcheck",
+      "tsconfig_node_compileroptions_strict",
+      "tsconfig_node_compileroptions_target",
+      "tsconfig_node_compileroptions_tsbuildinfofile",
+      "tsconfig_node_compileroptions_types",
+      "tsconfig_node_compileroptions_verbatimmodulesyntax",
+      "tsconfig_node_include"
+    ],
+    "4": [
+      "src_components_footer",
+      "src_components_footer_columns",
+      "src_components_footer_footer",
+      "src_components_footer_trustbadges",
+      "src_components_navbar",
+      "src_components_navbar_links",
+      "src_components_navbar_navbar",
+      "src_components_navbar_themetoggle",
+      "src_context_themecontext",
+      "src_context_themecontext_themeprovider",
+      "src_context_themestore",
+      "src_context_themestore_theme",
+      "src_context_themestore_themecontext",
+      "src_context_themestore_themecontextvalue",
+      "src_context_usetheme",
+      "src_context_usetheme_usetheme",
+      "src_layouts_sitelayout",
+      "src_layouts_sitelayout_sitelayout"
+    ],
+    "5": [
+      "package",
+      "package_name",
+      "package_overrides",
+      "package_overrides_vite",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_format",
+      "package_scripts_format_fix",
+      "package_scripts_lint",
+      "package_scripts_lint_fix",
+      "package_scripts_preview",
+      "package_type",
+      "package_version"
+    ],
+    "6": [
+      "package_dependencies",
+      "package_dependencies_prop_types",
+      "package_dependencies_react",
+      "package_dependencies_react_dom",
+      "package_dependencies_react_simple_maps",
+      "package_dependencies_tailwindcss_vite",
+      "package_dependencies_vis_gl_react_google_maps",
+      "prop_types",
+      "react",
+      "react_dom",
+      "react_simple_maps",
+      "tailwindcss_vite",
+      "vis_gl_react_google_maps"
+    ],
+    "7": [
+      "src_components_alliesmap",
+      "src_components_alliesmap_allies",
+      "src_components_alliesmap_alliesmap",
+      "src_components_alliesmap_allylocation"
+    ],
+    "8": [
+      "src_components_clientsbanner",
+      "src_components_clientsbanner_clients",
+      "src_components_clientsbanner_clientsbanner"
+    ],
+    "9": [
+      "tsconfig",
+      "tsconfig_files",
+      "tsconfig_references"
+    ],
+    "10": [
+      "src_components_bggrid",
+      "src_components_bggrid_bggrid"
+    ],
+    "11": [
+      "src_components_services",
+      "src_components_services_services"
+    ],
+    "12": [
+      "eslint_config"
+    ],
+    "13": [
+      "vite_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06060606060606061,
+    "1": 0.07407407407407407,
+    "2": 0.10153846153846154,
+    "3": 0.08695652173913043,
+    "4": 0.16339869281045752,
+    "5": 0.13333333333333333,
+    "6": 0.15384615384615385,
+    "7": 0.5,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_app_compileroptions",
+      "label": "compilerOptions",
+      "degree": 20
+    },
+    {
+      "id": "tsconfig_node_compileroptions",
+      "label": "compilerOptions",
+      "degree": 18
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 8
+    },
+    {
+      "id": "src_context_usetheme_usetheme",
+      "label": "useTheme()",
+      "degree": 5
+    },
+    {
+      "id": "tsconfig_app_compileroptions_lib",
+      "label": "lib",
+      "degree": 4
+    },
+    {
+      "id": "src_components_footer_footer",
+      "label": "Footer()",
+      "degree": 3
+    },
+    {
+      "id": "src_components_navbar_navbar",
+      "label": "Navbar()",
+      "degree": 3
+    },
+    {
+      "id": "src_context_themestore_themecontext",
+      "label": "ThemeContext",
+      "degree": 3
+    },
+    {
+      "id": "package_dependencies_tailwindcss_vite",
+      "label": "@tailwindcss/vite",
+      "degree": 2
+    },
+    {
+      "id": "package_dependencies_vis_gl_react_google_maps",
+      "label": "@vis.gl/react-google-maps",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Footer()",
+      "target": "useTheme()",
+      "source_files": [
+        "src/components/Footer.tsx",
+        "src/context/useTheme.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Navbar()",
+      "target": "useTheme()",
+      "source_files": [
+        "src/components/Navbar.tsx",
+        "src/context/useTheme.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
