@@ -34,7 +34,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-surface/90 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-6 px-5 md:px-8">
         <Link to="/" className="flex items-center gap-3 focus:outline-none">
-          <img src={logo} alt="DigitalALWS" className="h-8 w-auto" />
+          <img src={logo} alt="Digitallaws" className="h-8 w-auto" />
         </Link>
 
         {/* Navegación escritorio */}

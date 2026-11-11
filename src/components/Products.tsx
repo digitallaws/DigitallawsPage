@@ -91,7 +91,7 @@ const products: Product[] = [
       icon: "lightbulb",
       text: "Innovación focalizada en necesidades corporativas",
     },
-    desc: "DigitalALWS continúa concibiendo y desarrollando nuevos productos para ampliar nuestro portafolio, brindando herramientas modernas que potencian la competitividad empresarial.",
+    desc: "Digitallaws continúa concibiendo y desarrollando nuevos productos para ampliar nuestro portafolio, brindando herramientas modernas que potencian la competitividad empresarial.",
     features: [
       "Investigación aplicada a retos de negocio reales",
       "Roadmap orientado a escalabilidad y valor sostenido",

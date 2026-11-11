@@ -20,13 +20,14 @@ export default function Hero() {
             </span>
 
             <h1 className="font-display text-5xl font-extrabold leading-[1.05] tracking-tight text-text md:text-6xl lg:text-[4rem]">
-              Creamos productos que conectan.
+              Software a medida para empresas e instituciones.
             </h1>
 
             <p className="max-w-lg text-lg leading-relaxed text-text-muted">
-              Somos DigitalLaws, la empresa detrás de DIMAIL, DIMAIL Marketing y
-              LegalEnvios. Desarrollamos soluciones que simplifican la
-              comunicación y los procesos empresariales.
+              Somos Digitallaws, una empresa colombiana de desarrollo de
+              software e integración de sistemas. Creamos soluciones para el
+              sector jurídico, empresas y entidades públicas que buscan
+              automatizar sus procesos.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 pt-1">

@@ -1,0 +1,59 @@
+name: Deploy DigitalLaws website to CloudFront
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: digitallaws-website-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      AWS_REGION: us-east-1
+      WEBSITE_BUCKET_NAME: website-produccion-730335377205
+      WEBSITE_S3_PREFIX: digitallaws
+      CLOUDFRONT_DISTRIBUTION_ID: E3OHYZXSBN0Z41
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - name: Enable pnpm
+        run: corepack enable
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build website
+        run: pnpm run build
+      - name: Configure AWS credentials with GitHub OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+      - name: Publish website and invalidate CloudFront
+        shell: bash
+        run: |
+          set -euo pipefail
+          : "${WEBSITE_BUCKET_NAME:?Set WEBSITE_BUCKET_NAME}"
+          : "${WEBSITE_S3_PREFIX:?Set WEBSITE_S3_PREFIX}"
+          : "${CLOUDFRONT_DISTRIBUTION_ID:?Set the DigitalLaws CloudFront distribution ID}"
+          aws s3 sync dist/ "s3://${WEBSITE_BUCKET_NAME}/${WEBSITE_S3_PREFIX}/" \
+            --delete --cache-control 'public,max-age=300,must-revalidate'
+          find dist -name index.html -print0 | while IFS= read -r -d '' file; do
+            key="${file#dist/}"
+            aws s3 cp "$file" "s3://${WEBSITE_BUCKET_NAME}/${WEBSITE_S3_PREFIX}/${key}" \
+              --content-type 'text/html; charset=utf-8' \
+              --cache-control 'no-cache,no-store,must-revalidate'
+          done
+          aws cloudfront create-invalidation \
+            --distribution-id "${CLOUDFRONT_DISTRIBUTION_ID}" \
+            --paths '/*'

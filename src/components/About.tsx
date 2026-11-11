@@ -39,10 +39,12 @@ export default function About() {
               Innovación con propósito y visión sostenible.
             </h2>
             <p className="max-w-3xl text-lg leading-relaxed text-text-muted">
-              DigitalALWS es una empresa enfocada en la creación y evolución de
-              soluciones digitales. Desarrollamos productos propios que responden
-              a necesidades reales de empresas y organizaciones, combinando
-              innovación, experiencia y una visión de crecimiento a largo plazo.
+              Digitallaws desarrolla software a medida, aplicaciones
+              empresariales e integraciones API para facilitar la gestión
+              documental y las comunicaciones electrónicas. Somos
+              desarrolladores de DIMAIL y aliados tecnológicos de ALFAMENSAJES,
+              conectando ingeniería de software con las necesidades de cada
+              organización.
             </p>
           </div>
 
@@ -85,7 +87,9 @@ export default function About() {
               </div>
               <div className="flex items-center gap-2 text-sm font-semibold text-brand">
                 <span>{p.tag}</span>
-                <span className="material-symbols-outlined text-base">check</span>
+                <span className="material-symbols-outlined text-base">
+                  check
+                </span>
               </div>
             </article>
           ))}

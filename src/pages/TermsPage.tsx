@@ -4,7 +4,7 @@ const sections: LegalSection[] = [
   {
     heading: "Aceptación de los términos",
     paragraphs: [
-      "El acceso y uso de este sitio y de las plataformas de DigitalALWS implica la aceptación plena de estos Términos y Condiciones. Si no está de acuerdo con ellos, le solicitamos abstenerse de utilizar los servicios.",
+      "El acceso y uso de este sitio y de las plataformas de Digitallaws implica la aceptación plena de estos Términos y Condiciones. Si no está de acuerdo con ellos, le solicitamos abstenerse de utilizar los servicios.",
     ],
   },
   {
@@ -18,7 +18,7 @@ const sections: LegalSection[] = [
   {
     heading: "Propiedad intelectual",
     paragraphs: [
-      "El software, marcas, contenidos y elementos gráficos de DigitalALWS son de su propiedad o cuentan con licencia. Queda prohibida su reproducción o uso no autorizado.",
+      "El software, marcas, contenidos y elementos gráficos de Digitallaws son de su propiedad o cuentan con licencia. Queda prohibida su reproducción o uso no autorizado.",
     ],
   },
   {
@@ -30,7 +30,7 @@ const sections: LegalSection[] = [
   {
     heading: "Limitación de responsabilidad",
     paragraphs: [
-      "DigitalALWS no será responsable por daños derivados del uso indebido de los servicios o por causas ajenas a su control razonable. Las certificaciones y constancias se emiten conforme a la información efectivamente procesada.",
+      "Digitallaws no será responsable por daños derivados del uso indebido de los servicios o por causas ajenas a su control razonable. Las certificaciones y constancias se emiten conforme a la información efectivamente procesada.",
     ],
   },
   {
@@ -46,7 +46,7 @@ export default function TermsPage() {
     <LegalDoc
       badge="Términos y Condiciones"
       title="Términos y Condiciones de Uso"
-      intro="Condiciones que regulan el acceso y uso del sitio y de las plataformas corporativas de DigitalALWS."
+      intro="Condiciones que regulan el acceso y uso del sitio y de las plataformas corporativas de Digitallaws."
       updated="Octubre de 2026"
       sections={sections}
     />

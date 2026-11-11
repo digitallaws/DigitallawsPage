@@ -70,7 +70,7 @@ export default function Partners() {
                 </div>
                 <div className="flex flex-col gap-1">
                   <span className="font-display text-lg font-bold text-text">
-                    AlfaMensajes &amp; DigitalALWS
+                    AlfaMensajes &amp; Digitallaws
                   </span>
                   <span className="text-xs text-text-subtle">
                     Sinergia Tecnológica Corporativa

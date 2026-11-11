@@ -4,13 +4,14 @@ import type { Theme } from "./ThemeStore";
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {
-    const stored = localStorage.getItem("dl-theme") as Theme | null;
+    if (typeof window === "undefined") return "light";
+    const stored = window.localStorage.getItem("dl-theme") as Theme | null;
     return stored ?? "light";
   });
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("dl-theme", theme);
+    window.localStorage.setItem("dl-theme", theme);
   }, [theme]);
 
   const value = useMemo(

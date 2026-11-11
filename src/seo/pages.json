@@ -1,0 +1,42 @@
+{
+  "/": {
+    "title": "Digitallaws | Desarrollo de software en Colombia",
+    "description": "Desarrollamos software a medida, soluciones jurídicas e integraciones API para empresas y entidades públicas en Colombia. Conoce Digitallaws y DIMAIL."
+  },
+  "/productos": {
+    "title": "Productos de software y DIMAIL | Digitallaws",
+    "description": "Conoce los productos de Digitallaws: DIMAIL, LegalEnvios y nuevas plataformas para comunicaciones empresariales y notificaciones electrónicas."
+  },
+  "/desarrollo-software": {
+    "title": "Desarrollo de software a medida en Colombia | Digitallaws",
+    "description": "Desarrollo de aplicaciones web y software empresarial a medida para automatizar procesos, gestionar información y conectar equipos en Colombia."
+  },
+  "/integraciones-api": {
+    "title": "Integración API y sistemas empresariales | Digitallaws",
+    "description": "Conecta plataformas y automatiza el intercambio de información con integraciones API, servicios web y desarrollo de software empresarial de Digitallaws."
+  },
+  "/software-juridico": {
+    "title": "Software jurídico para abogados en Colombia | Digitallaws",
+    "description": "Soluciones tecnológicas para abogados y organizaciones: gestión de expedientes digitales, automatización de procesos y comunicaciones electrónicas."
+  },
+  "/seguridad": {
+    "title": "Seguridad de nuestras plataformas | Digitallaws",
+    "description": "Conoce el enfoque de Digitallaws para la seguridad, protección de la información y respaldo de sus plataformas de software empresarial."
+  },
+  "/pqrs": {
+    "title": "Peticiones, quejas, reclamos y sugerencias | Digitallaws",
+    "description": "Canal de atención de Digitallaws para peticiones, quejas, reclamos y sugerencias relacionadas con nuestros servicios y plataformas."
+  },
+  "/privacidad": {
+    "title": "Política de privacidad | Digitallaws",
+    "description": "Consulta cómo Digitallaws trata los datos personales y conoce la información sobre privacidad y los canales de atención a los titulares."
+  },
+  "/terminos": {
+    "title": "Términos y condiciones | Digitallaws",
+    "description": "Consulta las condiciones de acceso y uso del sitio web y las plataformas corporativas de Digitallaws."
+  },
+  "/cookies": {
+    "title": "Política de cookies | Digitallaws",
+    "description": "Información sobre el uso de cookies en el sitio de Digitallaws y las opciones disponibles para su administración."
+  }
+}

@@ -3,6 +3,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { ThemeProvider } from "../context/ThemeContext";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Seo from "../components/Seo";
 
 export default function SiteLayout() {
   const scrollRef = useRef<HTMLElement>(null);
@@ -25,6 +26,7 @@ export default function SiteLayout() {
 
   return (
     <ThemeProvider>
+      <Seo />
       <div className="h-svh overflow-hidden bg-canvas text-text">
         <Navbar />
         <main ref={scrollRef} className="snap-container mt-20">

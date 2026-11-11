@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-12">
           {/* Marca */}
           <div className="flex flex-col gap-4 md:col-span-5">
-            <img src={logo} alt="DigitalALWS" className="h-8 w-auto self-start" />
+            <img src={logo} alt="Digitallaws" className="h-8 w-auto self-start" />
             <p className="max-w-sm text-sm leading-relaxed text-text-muted">
               Tecnología empresarial: productos digitales escalables y soluciones
               seguras de alto impacto para organizaciones globales.
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Pie legal */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-border pt-6 sm:flex-row">
           <p className="text-xs text-text-subtle">
-            © {new Date().getFullYear()} DigitalALWS. Todos los derechos
+            © {new Date().getFullYear()} Digitallaws. Todos los derechos
             reservados.
           </p>
           <div className="flex flex-wrap items-center gap-6">

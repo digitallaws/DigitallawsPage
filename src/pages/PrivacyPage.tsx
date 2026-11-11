@@ -4,7 +4,7 @@ const sections: LegalSection[] = [
   {
     heading: "Responsable del tratamiento",
     paragraphs: [
-      "DigitalALWS es responsable del tratamiento de los datos personales recolectados a través de este sitio y de sus plataformas corporativas. Tratamos la información con fines legítimos, de forma proporcional y conforme a la normativa aplicable de protección de datos.",
+      "Digitallaws es responsable del tratamiento de los datos personales recolectados a través de este sitio y de sus plataformas corporativas. Tratamos la información con fines legítimos, de forma proporcional y conforme a la normativa aplicable de protección de datos.",
     ],
   },
   {
@@ -46,7 +46,7 @@ export default function PrivacyPage() {
     <LegalDoc
       badge="Seguridad y Privacidad"
       title="Política de Privacidad"
-      intro="Describimos cómo DigitalALWS recolecta, utiliza y protege los datos personales tratados a través de este sitio y sus plataformas."
+      intro="Describimos cómo Digitallaws recolecta, utiliza y protege los datos personales tratados a través de este sitio y sus plataformas."
       updated="Octubre de 2026"
       sections={sections}
     />
